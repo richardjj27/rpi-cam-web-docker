@@ -1,6 +1,6 @@
 # FROM resin/rpi-raspbian:jessie-20160831
 # FROM armhfbuild/debian:jessie
-FROM resin/rpi-raspbian:jessie
+FROM resin/rpi-raspbian:latest
 
 MAINTAINER "Michael Droogleever" <droogmic@yahoo.com>
 
