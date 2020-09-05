@@ -19,7 +19,7 @@ This repo provides a Dockerfile which will containerise the RPi-Cam-Web-Interfac
 ## Installation
 
 ### Docker Hub
-https://hub.docker.com/r/richardjj627/rpi-cam-web/
+https://hub.docker.com/richardjj627/rpi-cam-web/
 
 ### Git clone
 ```
