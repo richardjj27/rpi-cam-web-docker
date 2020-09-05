@@ -19,7 +19,7 @@ RUN apt-get update -y && \
 # download installation files
 RUN git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git && \
     # comment the following line to download the untested most recent version
-    cd RPi_Cam_Web_Interface; git checkout -q c4d19ec; cd .. && \
+    # cd RPi_Cam_Web_Interface; git checkout -q c4d19ec; cd .. && \
     chmod u+x RPi_Cam_Web_Interface/*.sh
 
 # workarounds
