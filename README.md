@@ -19,11 +19,11 @@ This repo provides a Dockerfile which will containerise the RPi-Cam-Web-Interfac
 ## Installation
 
 ### Docker Hub
-https://hub.docker.com/r/droogmic/rpi-cam-web/
+https://hub.docker.com/r/richardjj627/rpi-cam-web/
 
 ### Git clone
 ```
-git clone https://github.com/droogmic/rpi-cam-web-docker.git
+git clone https://github.com/richardjj27/rpi-cam-web-docker.git
 cd rpi-cam-web-docker
 make ld-userconfig
 default
