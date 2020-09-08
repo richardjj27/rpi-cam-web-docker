@@ -1,8 +1,8 @@
 # FROM resin/rpi-raspbian:jessie-20160831
 # FROM armhfbuild/debian:jessie
-FROM resin/rpi-raspbian:latest
+FROM balenalib/rpi-raspbian:latest
 
-MAINTAINER "Michael Droogleever" <droogmic@yahoo.com>
+MAINTAINER "Richard Johnson" <richardjj627@gmail.com>
 
 RUN mkdir -p /rpi-cam-web
 WORKDIR /rpi-cam-web
@@ -13,8 +13,8 @@ RUN apt-get update -y && \
 
 # psmisc for killall
 # rest from install.sh:322
-RUN apt-get update -y && \
-    apt-get install -y psmisc dialog nginx php5-fpm php5-cli php5-common php-apc apache2-utils gpac motion zip libav-tools gstreamer1.0-tools
+# RUN apt-get update -y && \
+#    apt-get install -y psmisc dialog nginx php5-fpm php5-cli php5-common php-apc apache2-utils gpac motion zip libav-tools gstreamer1.0-tools
 
 # download installation files
 RUN git clone https://github.com/silvanmelchior/RPi_Cam_Web_Interface.git && \
