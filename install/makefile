@@ -1,9 +1,9 @@
 default:
 	@echo pass
 dev-build:
-	docker build -t droogmic/rpi-cam-web:develop .
+	docker build -t richardjj627/rpi-cam-web:develop .
 latest-build:
-	docker build -t droogmic/rpi-cam-web:release  -f Dockerfile.latest .
+	docker build -t richardjj627/rpi-cam-web:release  -f Dockerfile.latest .
 release: Dockerfile.latest
 Dockerfile.latest: Dockerfile
 	@echo "overwriting Dockerfile.latest"
