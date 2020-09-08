@@ -22,10 +22,10 @@ ld-userconfig:
 push:
 	docker push droogmic/rpi-cam-web
 release:
-	docker tag droogmic/rpi-cam-web:develop-preinstall droogmic/rpi-cam-web:latest-preinstall
-	docker tag droogmic/rpi-cam-web:develop droogmic/rpi-cam-web:latest
-	docker tag droogmic/rpi-cam-web:develop-preinstall droogmic/rpi-cam-web:$(ts)-preinstall
-	docker tag droogmic/rpi-cam-web:develop droogmic/rpi-cam-web:$(ts)
+	docker tag richardjj627/rpi-cam-web:develop-preinstall richardjj627/rpi-cam-web:latest-preinstall
+	docker tag richardjj627/rpi-cam-web:develop richardjj627/rpi-cam-web:latest
+	docker tag richardjj627/rpi-cam-web:develop-preinstall richardjj627/rpi-cam-web:$(ts)-preinstall
+	docker tag richardjj627/rpi-cam-web:develop richardjj627/rpi-cam-web:$(ts)
 	+$(MAKE) -C setup $@
 	+$(MAKE) -C install $@
 	+$(MAKE) -C customise $@

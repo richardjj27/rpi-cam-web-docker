@@ -2,7 +2,7 @@
 rpicamdir=""
 webserver="nginx"
 webport="80"
-user=""
-webpasswd=""
+user="user"
+webpasswd="password"
 autostart="yes"
 
