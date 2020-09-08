@@ -20,7 +20,7 @@ ld-userconfig:
 	cp -r userconfigs/$$userconfig_name customise/; \
 	mv customise/$$userconfig_name customise/userconfig
 push:
-	docker push droogmic/rpi-cam-web
+	docker push richardjj627/rpi-cam-web
 release:
 	docker tag richardjj627/rpi-cam-web:develop-preinstall richardjj627/rpi-cam-web:latest-preinstall
 	docker tag richardjj627/rpi-cam-web:develop richardjj627/rpi-cam-web:latest
