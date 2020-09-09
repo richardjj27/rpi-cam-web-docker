@@ -1,4 +1,4 @@
-FROM droogmic/rpi-cam-web:develop-preinstall
+FROM richardjj627/rpi-cam-web:develop-preinstall
 
 MAINTAINER "Richard Johnson" <richardjj627@gmail.com>
 
