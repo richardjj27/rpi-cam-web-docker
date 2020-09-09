@@ -1,6 +1,6 @@
-FROM droogmic/rpi-cam-web:latest-preinstall
+FROM droogmic/rpi-cam-web:develop-preinstall
 
-MAINTAINER "Michael Droogleever" <droogmic@yahoo.com>
+MAINTAINER "Richard Johnson" <richardjj627@gmail.com>
 
 # psmisc for killall
 # rest from install.sh:322

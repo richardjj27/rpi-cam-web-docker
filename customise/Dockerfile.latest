@@ -1,6 +1,6 @@
-FROM droogmic/rpi-cam-web:latest
+FROM droogmic/rpi-cam-web:develop
 
-MAINTAINER "Michael Droogleever" <droogmic@yahoo.com>
+MAINTAINER "Richard Johnson" <richardjj627@gmail.com>
 
 # user configs, used to copy over exisiting configurations, TODO: add motion
 COPY userconfig/uconfig /var/www/
